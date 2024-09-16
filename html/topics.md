@@ -23,11 +23,11 @@
 
 ## Tables
 
-- **Table Row (`<tr>`)**  
-- **Table Header (`<th>`)**  
-- **Table Data (`<td>`)**  
-- **Colspan**  
-- **Rowspan**
+- Table Row (`<tr>`) 
+- Table Header (`<th>`)  
+- Table Data (`<td>`)  
+- Colspan
+- Rowspan
 
 ## Forms
 

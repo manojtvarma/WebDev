@@ -1,0 +1,57 @@
+
+1.Constructor Functions
+
+Number
+String
+Boolean
+
+Date
+Array
+
+Window
+HTMLDocument
+History
+Location
+Storage
+Object
+Navigator
+
+2.Global Objects
+
+window
+document
+console
+history
+location
+navigator
+localStorage
+sessionStorage
+
+3.Object Properties and methods
+
+window
+ alert
+ confirm
+ prompt
+
+document
+ location
+ addEventListerner()
+ getElementById()
+
+localStorage and sessionStorage methods
+
+setItem("key","value")
+getItem(key)
+clear()
+
+navigator properties
+
+onLine
+cookieEnabled
+vibrate
+
+
+
+
+

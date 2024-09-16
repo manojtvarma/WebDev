@@ -1,0 +1,30 @@
+document Object
+
+1.Selector Methods
+
+getElementById()
+getElementsByClassName()
+getElementsByTagName()
+
+querySelector()
+querySelectorAll()
+
+2.Traversing
+
+createElement()
+appendChild()
+
+3.DOM Manipulation
+
+4.Events
+
+onclick
+onchange
+onkeyup
+onkeypress
+onmouseover
+onmouseout
+
+
+
+

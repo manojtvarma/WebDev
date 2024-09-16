@@ -1,0 +1,267 @@
+/*
+JavaScript Variables,Primitive Types 
+and typeof Operator*/
+
+var a;
+console.log(typeof a);//undefined
+
+a = 10;
+console.log(typeof a);//number
+
+a = "manoj";
+console.log(typeof a);//string
+
+a = "true";
+console.log(typeof a);//boolean
+
+a = null;
+console.log(typeof a);//object
+
+/*
+== and === operators 
+type coercion
+*/
+
+var a = 10;
+//== checks only values not type 
+if(a == "10"){
+	console.log("true");
+}else{
+	console.log("false");
+}
+
+/*=== operator check both values and type*/
+if(a === "10"){
+	console.log("true");
+}else{
+	console.log("false");
+}
+
+/*
+Object Literal 
+Brackets Notation
+*/
+
+var person = {
+	firstName : "manoj",
+	lastName  : "varma"
+};
+
+console.log(person);//to display all object
+/*
+to access specific property of object we use->objectname.propertyName 
+*/
+console.log(person.firstName);//manoj
+
+/*
+we can also access object property using brackets notation
+like object["propertyName"].here pass property name in double quotes("").
+we use brackets notation when property name is not valid identifier like property name starts with 1,2 etc.
+*/
+console.log(person["lastName"]);//varma
+
+/*
+Nested Object 
+*/
+
+var person = {
+	firstName : "manoj",
+    lastName  : "varma",
+    address	  : {
+ 		street : "main street",
+		city   : "mumbai",
+		state  : "maharashtra",
+		country: "india",
+		pincode: 400066
+  }
+};
+
+/*
+To access nested objects property use
+	object.nested_object.propertyName
+*/
+
+console.log(person.address.street);
+
+/*
+undefined and null for object
+*/
+
+var person = {
+	firstName : "manoj",
+	lastName  : "varma"
+};
+
+/*
+when access property of object which are not defined in object that we get undefined
+*/
+console.log(person.middleName);
+
+/*adding property middleName */
+
+person.middleName = null;
+
+console.log(person.middleName);
+
+/*
+delete keyword for object
+*/
+
+var person = {
+	firstName : "manoj",
+	lastName  : "varma"
+};
+
+/*adding property middleName which has value null(not applicable for person so null) */
+
+person.middleName = null;
+console.log(person);
+
+/*
+to delete object property we use delete keyword in JavaScript
+*/
+delete(person.middleName);
+
+console.log(person);
+
+/*JavaScript Array */
+
+var listOfEmployee = ["abc","xyz"];//creating array
+
+/*access property of array 
+
+console.log(listOfEmployee[0]);
+console.log(listOfEmployee[1]);
+
+To Display all data in arrays
+
+for(var i=0;i<listOfEmployee.length;i++){
+	console.log(listOfEmployee[i]);
+}
+
+Array is object is JavaScript 
+console.log(typeof listOfEmployee);
+
+arrays methods in javascript
+pop()->removes last element from array and returns that element.
+push()->add element to the end of array and returns length of array.
+*/
+
+//listOfEmployee.pop();
+//listOfEmployee.push("pqr");
+
+console.log(listOfEmployee);
+
+/*
+Wrapper Objects(Number,String,Boolean)
+In JS If we call function on normal primitive type variable then javascript engine automatically converts to corressponding wrapper obects.
+*/
+
+var name = "manoj";//name is of primitive string
+console.log(name.length);//now it is converted Wrapper String Object
+
+var number = 4;
+console.log(number.sqrt());//2 it is converted to Number Wrapper Object
+
+***Factory Function
+
+function createEmployee(firstName,lastName){
+  var employee = {};
+  employee.firstName = firstName;
+  employee.lastName = lastName;
+  employee.getName = function(){
+    return employee.firstName + " " + employee.lastName;
+  }
+  return employee;
+}
+
+var emp1 = createEmployee("manoj","varma");
+var name = emp1.getName();
+console.log(name);
+
+
+***Constructor Function
+function Employee(firstName,lastName){
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.getName = function(){
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+var emp1 = new Employee("manoj","varma");
+var name = emp1.getName();
+console.log(name);
+
+***Prototype Object
+
+function Employee(firstName,lastName){
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+Employee.prototype.getName = function(){
+    return this.firstName + " " + this.lastName;
+}
+
+var emp1 = new Employee("manoj","varma");
+var name = emp1.getName();
+console.log(name);
+
+***Inheritance Using Prototype
+
+function Person(name){
+  this.name = name;
+}
+Person.prototype.getName = function(){
+  return this.name;
+}
+
+
+function Employee(name){
+  this.name = name;
+}
+
+/*To use function getName of person so we have make prototype of employee points to person prototype.*/
+
+Employee.prototype = Person.prototype;
+
+var emp1 = new Employee("manoj varma");
+console.log(emp1.getName());
+
+Example:
+Object
+ |
+Person
+ |
+Employee
+
+***different ways to create functions in JS 
+
+**function declaration
+function formatAmount(amount){
+	
+  console.log("$" + amount.toFixed(2));
+
+}
+formatAmount(198.234);
+
+**function expression
+var formatAmount = function(amount){
+	
+  console.log("$" + amount.toFixed(2));
+
+};
+
+formatAmount(198.234);
+
+**IIFE(Immediately Invoked Function Expression)
+(function(amount){
+	 
+  console.log("$" + amount.toFixed(2));
+
+})(198.234);
+
+
+Note: here this keyword points to window object.
+
+
