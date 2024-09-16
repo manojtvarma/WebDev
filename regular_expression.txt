@@ -1,0 +1,31 @@
+Special Character
+.   Match any character except new line
+
+[] Character Set
+Match any character in set.
+
+[-] Range
+match character in this range.
+
+Example:
+[A-Z]
+[a-Z]
+[0-9]
+
+Note:[C-Z] is possible but [4-9] is not possible 
+only 0-9. its only for alphabets.
+
+[^] Negation Set
+Match any character that is not in the set.
+
+Escape Character
+
+\  backslash
+backslash that precedes special character indicates that the 
+next character is not special. 
+
+Example:
+\. Match . character
+\\ Match \ character
+
+
