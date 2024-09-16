@@ -1,0 +1,32 @@
+Input 
+  Name
+  Email
+  Password/Confirm Password
+  Mobile Number
+TextArea
+  Message
+  Feedback
+  Comments
+  Notes
+Select
+  Country,Country Code,State,City
+  Day,Month,Year
+Radio Button
+ Payment
+  Credit Card
+  Debit Card
+  Paypal
+ Gender
+  Male
+  Female
+Button
+  Login
+  Register/Create account/Signup
+  Sign out/Logout
+  Add to Cart
+Anchor/Links
+  Forgot password?
+
+
+
+  

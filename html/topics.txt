@@ -1,0 +1,15 @@
+introdoction
+list(li)
+	unordered(ul)(disc,circle,square,none) 
+	ordered(ol)
+anchor(a) 
+imgage(img) 
+table(tr,th,td,colspan,rowspan)
+form 
+ input(text,password,email,submit,checkbox,radio,hidden,number) 
+	  (color,date,file,range)
+ textarea
+ select and option
+video and audio tags(src,controls)
+ 
+ 

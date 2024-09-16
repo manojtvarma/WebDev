@@ -1,0 +1,58 @@
+list-style
+list-style-type
+list-style-position
+list-style-image
+
+default value
+list-style: disc outside none
+
+text-decoration
+text-decoration-line
+text-decoration-style
+text-decoration-color
+
+default value
+text-decoration: none  solid currentColor
+
+padding
+padding-top 
+padding-right 
+padding-buttom 
+padding-left
+
+margin 
+margin-top 
+margin-right 
+margin-button 
+margin-left
+
+Note:
+padding/margin: top right buttom left
+padding/margin: top&button right&left
+
+border
+border-width
+border-style
+border-color
+
+border-radius
+
+color
+font
+font-style
+font-weight
+font-size/line-height
+font-family
+
+default
+font: normal normal medium browser-dependent
+
+background
+background-image
+background-position
+background-repeat
+background-color
+
+box-sizing(content-box,padding-box,border-box)
+z-index
+float and clear

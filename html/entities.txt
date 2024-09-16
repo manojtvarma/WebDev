@@ -1,0 +1,6 @@
+&nbsp	Non Breaking Space
+&copy	Copy
+&reg 	Registered
+&lt	Less than
+&gt	Greater than
+&amp	Ampersand
