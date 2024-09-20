@@ -73,11 +73,8 @@
 - Get IP address  
    [IPify API](https://api.ipify.org/)
 
-- Get List of Countries, Country Code, and States 
-   - [Printful API](https://api.printful.com/countries)  
-   - [RestCountries API](https://restcountries.eu/rest/v2/all)  
-     ( Get list of countries and its details like languages, capitals, currency, flag, etc. )
-
+- Get a List of Countries, Country Code, and States [Printful API](https://api.printful.com/countries)  
+  
 - List of Products and its details  
    [Printful Products API](https://api.printful.com/products)
 
