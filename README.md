@@ -81,10 +81,6 @@
 - Generate GUIDs
    [UUID Generator](https://www.uuidgenerator.net/api/guid)
 
-- Google APIs  
-   [Google Geocode API](http://maps.googleapis.com/maps/api/geocode/json?address=addressDetails)
-
-
 ## Others
 
 - [Public API Resources](https://github.com/toddmotto/public-apis?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more)  
