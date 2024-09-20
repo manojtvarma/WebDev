@@ -2,8 +2,7 @@
 
 ## Generators
 
-- [Text Content](http://www.lipsum.com)  
-- [Favicon](http://tools.dynamicdrive.com)  
+- [Text Content](http://www.lipsum.com)   
 - [Dummy Data](https://mockaroo.com)  
 - [Mobile Mockup](https://mockuphone.com)  
 - [Logo](https://www.logaster.com)  
@@ -29,7 +28,6 @@
 ## Convertors
 
 - [Babel JS REPL](https://babeljs.io/repl) - ES6+ & JSX Compiler  
-- [Sass Meister](https://www.sassmeister.com) - Sass Converter  
 - [Web Toolkit Online](http://www.webtoolkitonline.com) - Less Converter & More  
 - [StackEdit](https://stackedit.io) - Markdown Editor  
 - [HTML to Jade Converter](http://www.html2jade.org)
@@ -45,7 +43,6 @@
 - [W3C HTML Validator](https://validator.w3.org) - Validate HTML  
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator) - Validate CSS  
 - [Can I Use](https://caniuse.com) - Check Browser Compatibility  
-- [ES6 Compatibility Table](https://kangax.github.io/compat-table/es6)
 
 ## Coding Online
 
@@ -64,16 +61,6 @@
 
 - [Responsinator](http://www.responsinator.com) - Device Testing  
 - [What's My Browser Size](https://www.webpagefx.com/tools/whats-my-browser-size)
-
-## WireFrame
-
-- [Moqups](https://app.moqups.com) - In Browser Wireframing  
-- [Wireframe.cc](https://wireframe.cc) - Very Basic In Browser Wireframing
-
-## Speed Test
-
-- [KeyCDN Speed Test](https://tools.keycdn.com/speed)  
-- [Pingdom Speed Test](https://tools.pingdom.com)
 
 ## APIs
 
